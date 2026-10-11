@@ -1,0 +1,17 @@
+# --- ShadowBox-Sec Local State ---
+# Exclude the framework's operational run logs, session tokens, and local metrics
+airgap_redteam_state/
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv
+venv/
+ENV/
+env/
+
+# --- OS Specifics ---
+.DS_Store
+Thumbs.db
